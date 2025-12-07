@@ -2,6 +2,7 @@ drop database if exists student;
 create database student;
 
 use student;
+
 create table data(name char(40),rollno int,branch char(20),section char(3),feedue int);
 select*from data;
 insert into data values("vyshu",10,"ECE","B",200),
