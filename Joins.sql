@@ -25,6 +25,7 @@ username varchar(100),
 likes int,
 comments int
 );
+
 INSERT INTO likes VALUES ('vyshnu_12',2,7);
 INSERT INTO likes VALUES ('naveeng9',5,10);
 INSERT INTO likes VALUES ('navya45',19,67);
