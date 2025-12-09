@@ -29,6 +29,11 @@ select*from info
 union all
 select*from info1;
 
+-- Intersect
+select*from info
+intersect
+select*from info1;
+
 -- Except
 select*from info
 except
