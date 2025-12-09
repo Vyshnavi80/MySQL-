@@ -8,7 +8,7 @@ marks int);
 insert into info values(1,'vyshu',10),
 (2,'vishnu',20),
 (3,'naveen',30);
-select*from info;
+select * from info;
 
 create table info1(rollno int,
 name char(50),
@@ -20,24 +20,24 @@ insert into info1 values(4,'pooji',10),
 select * from info1;
 
 -- union
-select*from info where marks=10
+select * from info where marks=10
 union
-select*from info1 where marks=20;
+select * from info1 where marks=20;
 
 -- union all
-select*from info
+select * from info
 union all
-select*from info1;
+select * from info1;
 
 -- Intersect
-select*from info
+select * from info
 intersect
-select*from info1;
+select * from info1;
 
 -- Except
-select*from info
+select * from info
 except
-select*from info1;
+select * from info1;
 
 
 
