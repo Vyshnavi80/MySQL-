@@ -1,5 +1,7 @@
 use students;
+
 -- DML->Data Manipulation Language
+
 create table info1(id int,
 firstname char(50),
 branch char(50));
