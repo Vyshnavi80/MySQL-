@@ -28,7 +28,7 @@ select*,upper(first_name) as upper from EMPLOYEE;
 -- left
 select*,left(first_name) as left from EMPLOYEE;
 -- right
-select*,left(first_name) as left from EMPLOYEE;
+select*,right(first_name) as right from EMPLOYEE;
 -- LPAD
 select*,LPAD(first_name,7,'0') as lpad from EMPLOYEE;
 -- INSTR
