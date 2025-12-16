@@ -1,6 +1,6 @@
 -- NUMERIC FUNCTIONS
 
--- abs
+-- abs(absolute value)
 select abs(-5);
 -- ceil
 select ceil(29.6);
