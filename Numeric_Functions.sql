@@ -31,13 +31,13 @@ select sign(5);
 select sign(0);
 -- pi
 select pi();
--- radians(converts degrees to radians)
+-- radians(degrees to radians)
 select radians(45);
--- degrees
+-- degrees(radians to degrees)
 select degrees(3.14159);
 -- gratest
 select gratest(10,20,30);
 -- least
 select least(10,20,30);
--- rand
+-- rand(random number)
 select rand();
